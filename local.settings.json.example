@@ -1,0 +1,27 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "MY_AZURE_AI_FORMRECOGNIZER_ENDPOINT": "https://MY_FORMRECOGNIZER_RESOURCE_NAME.cognitiveservices.azure.com/",
+    "MY_AZURE_AI_FORMRECOGNIZER_ACCESS_KEY": "MY_FORMRECOGNIZER_ACCESS_KEY",
+    "MY_AZURE_AI_FORMRECOGNIZER_MODEL_ID": "prebuilt-layout",
+    "MY_AZURE_AI_FORMRECOGNIZER_EXAMPLE_FORM_URL": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-REST-api-samples/master/curl/form-recognizer/sample-layout.pdf",
+    "MY_AZURE_STORAGE_ACCOUNT_NAME": "MY_STORAGE_ACCOUNT_NAME",
+    "MY_AZURE_STORAGE_ACCOUNT_ACCESS_KEY": "MY_STORAGE_ACCOUNT_ACCESS_KEY",
+    "MY_AZURE_STORAGE_CONTAINER_NAME": "MY_STORAGE_ACCOUNT_CONTAINER_NAME",
+    "MY_MONGODB_URI": "mongodb://MY_COSMOSDB_MONGODB_API_CONNECTION_STRING",
+    "MY_MONGODB_DATABASE": "MY_COSMOSDB_MONGODB_API_DATABASE_NAME",
+    "MY_MONGODB_COLLECTION": "MY_COSMOSDB_MONGODB_API_COLLECTION_NAME",
+    "MY_MAIN_PIPELINE_LOCAL_FOLDER_PATH": "/tmp",
+    "MY_MAIN_PIPELINE_FILE_NAME": "sample-layout.pdf",
+    "MY_MAIN_PIPELINE_KEEP_LOCAL_FILE": "True",
+    "MY_MAIN_PIPELINE_KEEP_BLOB": "True",
+    "MY_LOGGING_BASIC_CONFIG_FILENAME": "logfile.log",
+    "MY_LOGGING_BASIC_CONFIG_STREAM": "sys.stdout",
+    "MY_LOGGING_BASIC_CONFIG_FILEMODE": "w",
+    "MY_LOGGING_BASIC_CONFIG_FORMAT": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "MY_LOGGING_BASIC_CONFIG_LEVEL": "logging.INFO",
+    "AzureWebJobs.HttpTrigger-melco-lms-etl.Disabled": "true"
+  }
+}
